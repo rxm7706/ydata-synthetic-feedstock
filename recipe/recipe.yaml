@@ -9,8 +9,9 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/ydata-synthetic-${{ version }}.tar.gz
-  sha256: b5bf6d4a92a56b673c3083955637162b7b747a1a25ad509a39f898751b52d514
+  url: https://github.com/ydataai/ydata-synthetic/archive/${{ version }}.tar.gz
+  sha256: 101b7400e984f6f9c71eadf97772bd6a5c9cf6b5a3c4be505d1c843847d400b2
+
 
 build:
   number: 2
