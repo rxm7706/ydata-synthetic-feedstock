@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ydata-synthetic
-  version: 2.0.0
+  version: "2.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -42,6 +42,7 @@ tests:
       imports:
         - ydata_synthetic
       python_version: ${{ python_min }}.*
+
 about:
   summary: Synthetic data generation methods with different synthetization methods.
   license: MIT
